@@ -1,0 +1,276 @@
+header {
+	background: white;
+	width: 100%;
+	height: 46px;
+	position: fixed;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+	font-size: 14px;
+	line-height: 18px;
+	border-bottom:1px solid rgba(0,0,0,0.15)
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+div {
+	display: block;
+}
+
+#navigation {
+	width: 80%;
+	text-align: center;
+	display: flex;
+	margin: 0 auto;
+}
+
+#right {
+	display: flex;
+	flex: 6;
+	text-align: right;
+}
+
+header #navigation #logo {
+	flex: 1;
+	text-align: center;
+}
+
+header #navigation #bird{
+	height: 30px;
+	width: 30px;
+}
+
+header #navigation .left-links {
+	flex: 6;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	align-content: center;
+}
+
+.left-links li span {
+	color: rgb(102, 117, 127);
+	font-size: 13px;
+	font-family: 'Gotham Narrow SSm', sans-serif, Arial;
+	font-weight: 500;
+	display: inline-block;	
+}
+
+.left-links a {
+	display: inline-block;
+	height: 100%;
+}
+
+.left-links a:hover {
+	display: inline-block;
+	height: 100%;
+	border-bottom-color: rgb(0, 132, 180);
+border-bottom-style: solid;
+border-bottom-width: 4px;
+transition-delay: 0s;
+transition-duration: 0.15s;
+transition-property: all;
+transition-timing-function: ease-in-out;
+}
+
+.left-links li {
+	display: inline;
+}
+
+.left-links img {
+	vertical-align: baseline;
+	margin-top: 10px;
+}
+
+header #right #navigation .right-links {
+	text-align: right;
+}
+
+header #right #navigation #search-box {
+	text-align: right;
+}
+
+#search-box input {
+	 background: #b0b0b0;
+  border-radius: 18px;
+  border: 0;
+  font-size: 12px;
+
+  outline-color: rgb(68, 68, 68);
+  outline-style: none;
+  outline-width: 0px;
+
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 27px;
+  padding-top: 6px;
+
+  margin-top: 6px;
+  width: 200px;
+  transition: all 0.5s ease;
+}
+
+#search-box input:focus {
+  background: #fff;
+}
+
+#search-box input::-webkit-input-placeholder {
+  color: #666;
+}
+
+body {
+	background-image: url('images/bg.png');
+	background-repeat: no-repeat;
+	margin: 0;
+	background-color: #C0DEED;
+	background-attachment: fixed;
+	overflow-y: scroll;
+}
+
+
+
+.content-page {
+	width: 100%;
+	padding: 60 14 15 14;
+}
+
+.content-main {
+	width: 590px;
+	margin: 0 auto;
+	text-align: left;
+	border-radius: 6px;
+	background: white;
+}
+
+h2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #66757f;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10 10 10 10;
+	margin: 0;
+}
+
+.tweet-box {
+	background: #fff;
+	border-left: 1px solid #e1e8ed;
+	border-right: 1px solid #e1e8ed;
+	background-clip: padding-box;
+	min-height: 51px;
+	height: auto;
+	border-bottom: 1px solid #e1e8ed;
+	border-top: 1px solid #e1e8ed;
+	list-style: none;
+	padding: 9px 12px;
+}
+
+.context {
+	margin-left: 58px;
+}
+
+.content .tweet-header {
+	display: inline;
+	vertical-align: top;
+	width: 100%;
+}
+
+.content-header {
+	padding-top: 0;
+padding-bottom: 7;
+height: 20;
+}
+
+.content .avatar {
+	vertical-align: top;
+	border-radius: 6px;
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-right: 5px;
+}
+
+.tweet-header a {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+font-weight: bold;
+height: auto;
+line-height: 18px;
+}
+
+
+
+.tweet-header a .username {
+	font-size: 13px;
+color: #8899a6;
+font-weight: normal;
+}
+
+.time {
+	color: #8899a6;
+}
+
+.time:before {
+	content: "\00b7";
+}
+
+.tweet-text {
+	margin-top: 1px;
+	font-size: 14px;
+	height: auto;
+	line-height: 18px;
+	padding: 0;
+	margin-bottom: 0;
+}
+.tweet-footer {
+	display: table;
+	width: 90%;
+	float: right;
+}
+
+.tweet-actions li {
+	display: inline;
+	list-style-type: none; 
+}
+
+.tweet-action {
+	text-align: right;
+}
+
+.tweet-actions b {
+	font-size: 12px;
+height: 36px;
+line-height: 18px;
+color: rgb(225, 232, 237);
+}
+
+.expand {
+	font-size: 12px;
+height: 0px;
+line-height: 18px;
+color: #8899a6;
+}
+.tweet-action {
+margin: 0;
+padding-left: 0;
+}
+
+.tweet-actions img {
+	display: inline;
+	vertical-align: center;
+	width: 12px;
+}
+
+
+
